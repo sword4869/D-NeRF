@@ -7,4 +7,5 @@
 *.zip
 data/*
 logs/*
+runs/*
 __pycache__

@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "run_dnerf.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--config", "configs/mutant.txt",
+                "--render_only"
+            ]
+        },
+        {
+            "name": "debug",
+            "type": "python",
+            "request": "launch",
+            "program": "run_dnerf.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--config", "logs/mutant/config.txt"
+            ]
+        },
+        {
+            "name": "debug2",
+            "type": "python",
+            "request": "launch",
+            "program": "run_dnerf.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--config", "logs/configs/mic_pre.txt"
+            ]
+        }
+    ]
+}
