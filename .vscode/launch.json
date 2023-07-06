@@ -9,7 +9,6 @@
             "console": "integratedTerminal",
             "args": [
                 "--config", "configs/mutant.txt",
-                "--render_only"
             ]
         },
         {
