@@ -15,10 +15,10 @@
             "name": "debug",
             "type": "python",
             "request": "launch",
-            "program": "run_dnerf.py",
+            "program": "run_nerf.py",
             "console": "integratedTerminal",
             "args": [
-                "--config", "logs/mutant/config.txt"
+                "--config", "logs/config.txt",
             ]
         },
         {
